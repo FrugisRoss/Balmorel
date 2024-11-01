@@ -407,11 +407,6 @@ $setglobal TAXES
 $setglobal TRANS_RAMP
 *!option yes
 
-* TMAD
-* Aggregate emissions limitation, different from the existing EMI_POLNA because it takes the limits of individual countries and sums them
-$setglobal AGG_EMI_LIM
-*!option yes
-
 *-----------------------ANCILLARY SERVICES----------------------------------------------------------------------------------------------------
 * Ancillary services addon (it requires UnitComm to be active). The other options require this one to be activated.
 $setglobal ANC_SERV
