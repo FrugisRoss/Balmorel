@@ -169,7 +169,7 @@ $setglobal INDIVUSERS YES
 *!option yes
 
 * Include the possibility to shift exogenous heat demand between technology groups.
-$setglobal GROUP_DEMAND_SHIFT 
+$setglobal GROUP_DEMAND_SHIFT
 *!option yes
 
 * TMAD
@@ -211,7 +211,7 @@ $setglobal VRESHUTDOWN   yes
 *------------------------------EV ADDON-------------------------------------------------
 * overall control variable EV must be 'yes' if any of the other EV controls are:
 
-$setglobal EV 
+$setglobal EV
 *!option YES
 
 * Adds DUMB charging:
@@ -219,11 +219,11 @@ $setglobal DUMB
 *!option yes
 
 * Adds smart charging. Only smart charging, without V2G!:
-$setglobal SMART 
+$setglobal SMART
 *!option yes
 
-* Adds V2G charging: 
-$setglobal V2G YES  
+* Adds V2G charging:
+$setglobal V2G YES
 *!option  yes
 
 * Restricts PHEV vehicles from doing V2G (only relevant if V2G is activated):
@@ -270,7 +270,7 @@ $setglobal TRANSPORT_SYNTHFUEL_COMMODITY    HYDROGEN
 *!option HYDROGEN       !Text "The demand for synthetic fuel generation is modelled as hydrogen demand (requires hydrogen addon to be activated)"
 
 * Defines the possibility for the transport demand of synthetic fuels to be aggregated internationally instead of having to satisfy it regionally.
-$setglobal TRANSPORT_DEMAND_AGGREGATED    
+$setglobal TRANSPORT_DEMAND_AGGREGATED
 
 * TMAD
 * Enable electricity demand from EVs with a simple charging profile
@@ -347,7 +347,7 @@ $setglobal NOHEATMARKET
 * however, it has not been checked. Please take contact if problems.
 
 * Combine two technologies to one to achieve e.g. multifuel characteristics.
-$setglobal COMBTECH 
+$setglobal COMBTECH
 *!option yes
 
 *-----------------HYDROGEN ADDON---------------------------------------
@@ -414,7 +414,7 @@ $setglobal AGG_EMI_LIM
 
 *-----------------------ANCILLARY SERVICES----------------------------------------------------------------------------------------------------
 * Ancillary services addon (it requires UnitComm to be active). The other options require this one to be activated.
-$setglobal ANC_SERV 
+$setglobal ANC_SERV
 *!option yes
 
 * FCR reserve requirement activated
@@ -443,7 +443,7 @@ $setglobal DOWN_REGULATION_INCLUDED
 *-----------------------END: ANCILLIARY SERVICES----------------------------------------------------------------------------------------------------
 
 * Make investments in technologies only at specified capacities. (it should be checked before using it)
-$setglobal AGKNDISC 
+$setglobal AGKNDISC
 *!option yes
 *!onlyif %BB2%==yes
 *!onlyif %solvetype%==MIP
@@ -579,7 +579,7 @@ $setglobal addUP
 *-------------------- UNIT COMMITMENT -----------------------------------------------------------
 * overall control variable UnitComm must be 'yes' if any of the other unit commitment controls are:
 
-$setglobal UnitComm 
+$setglobal UnitComm
 *!option yes
 
 * Adds minimal production-when-on:
