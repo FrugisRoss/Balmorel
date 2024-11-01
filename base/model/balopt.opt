@@ -102,7 +102,25 @@ $setglobal TechInvest   yes
 *!option yes
 
 SCALAR GINVESTSTART 'Year from which endogenous decisions in generation capacities are allowed' ;
-GINVESTSTART= 2025;
+GINVESTSTART= 2020;
+
+* TMAD
+* Set a ramping constraint on the build-out of solar and wind
+$setglobal RampingVRE yes
+*!option yes
+
+SCALAR RAMP_RATE_SOLE 'ramping rate build-out of solar in GW/yr';
+SCALAR RAMP_RATE_WND 'ramping rate build-out of wind in GW/yr';
+SCALAR RAMP_RATE_HP 'ramping rate build-out of heat pumps in GW/yr';
+SCALAR RAMP_RATE_HS	'ramping rate build-out of heat savings in GW/yr';
+SCALAR RAMP_YEAR 'year that the ramping rate is effective until';
+* The ramp-rate of heat savings is a bit ambiguous, it is defined as the total capacity of all heat saving technologies divided by 10
+
+RAMP_RATE_SOLE = 50;
+RAMP_RATE_WND = 30;
+RAMP_RATE_HP = 30;
+RAMP_RATE_HS = 15;
+RAMP_YEAR = 2030;
 
 *---- End: Generation investments options----
 
@@ -153,6 +171,13 @@ $setglobal INDIVUSERS YES
 * Include the possibility to shift exogenous heat demand between technology groups.
 $setglobal GROUP_DEMAND_SHIFT 
 *!option yes
+
+* TMAD
+* Include the investment in heat saving generation technologies
+* Technologies are added in the normal GDATA, and applied to _IDVU_SPACEHEATING and DH areas
+$setglobal GHEATSAVING
+*!option yes
+
 *-----------------END: INDIVIDUAL USERS--------------------------------------------------------------
 
 * Include seasonal variation of heat pump's COP. If not activated, heat pumps will have a constant COP during the year.
@@ -247,6 +272,10 @@ $setglobal TRANSPORT_SYNTHFUEL_COMMODITY    HYDROGEN
 * Defines the possibility for the transport demand of synthetic fuels to be aggregated internationally instead of having to satisfy it regionally.
 $setglobal TRANSPORT_DEMAND_AGGREGATED    
 
+* TMAD
+* Enable electricity demand from EVs with a simple charging profile
+$setglobal SIMPLE_EV yes
+*!option yes
 
 *------------------------------END:TRANSPORT ADDON-------------------------------------------------
 
@@ -378,6 +407,11 @@ $setglobal TAXES
 $setglobal TRANS_RAMP
 *!option yes
 
+* TMAD
+* Aggregate emissions limitation, different from the existing EMI_POLNA because it takes the limits of individual countries and sums them
+$setglobal AGG_EMI_LIM
+*!option yes
+
 *-----------------------ANCILLARY SERVICES----------------------------------------------------------------------------------------------------
 * Ancillary services addon (it requires UnitComm to be active). The other options require this one to be activated.
 $setglobal ANC_SERV 
@@ -482,6 +516,65 @@ $setglobal REVERT_DECOM_EXO_G
 *--------END OF ENDOGENOUS CAPACITIES-----
 *-----------------------End of TECHNOLOGY DECOMMISSIONING--------------------------------------------------------
 
+*-------------------------------------------------------------------------------
+* OptiFlow model.
+*-------------------------------------------------------------------------------
+$setglobal OPTIFLOW yes
+*!option yes
+* Addon APKNdisc: discrete size investments in PROC.
+$setglobal APKNdisc
+*!option yes
+*Investments in Optiflow technologies
+$setglobal inv yes
+*! option yes
+*Model solved as MIP
+$setglobal solveOptiFlowmip
+*! option yes
+* Connects biomass use between Balmorel and OptiFlow.
+* Also sets MAXFLOW to 0
+$setglobal baloptfuelbridge yes
+*! option yes
+* Connects biogas produced by OptiFlow to Balmorel.
+* Also sets balmorel biogas potential to 0
+$setglobal baloptgasbridge
+*! option yes
+* Connects captured CO2 in Balmorel with CO2 use in OptiFlow
+* !! Requires the CCS addon!!!
+$setglobal baloptCCU yes
+*! option yes
+
+* OBS FF
+$setglobal baloptCCS
+*! option yes
+* Require investments in CO2 sequestration in OptiFlow.
+* !! Requires the CCS addon and baloptgasbridge=yes !!
+
+* Debug possibilities:
+$Setglobal addEPStoL
+*! option yes
+* Not needed if there are no capacity bounds on internal proc
+* It will be needed if there are capacity bounds on some internal proc, therefore add them only in that case (requires some coding, TODO).
+* With such minimal use the infeasibilities will be moved to SOSIBU proc whenever possible.
+$Setglobal useQNODEslack
+*! option
+$Setglobal useSSBslack
+*! option yes
+$Setglobal useShareSlack
+*! option yes
+* Option uniquesol permit to use quadratic terms in QOBJ in order to attain unique solution.
+* Should be used for debug on small systems only.
+$Setglobal uniquesol
+*! option yes
+* Testing ONLY:
+$setglobal singlearea
+*! option yes
+* Testing ONLY:
+$setglobal addUP
+*! option yes
+*-------------------------------------------------------------------------------
+*Optiflow end
+*-------------------------------------------------------------------------------
+
 
 *-------------------- UNIT COMMITMENT -----------------------------------------------------------
 * overall control variable UnitComm must be 'yes' if any of the other unit commitment controls are:
@@ -533,51 +626,13 @@ $setglobal SEASONALLINKRAMPING
 
 *----------------END OF STEPWISE RAMPING (LINEAR VERSION)----------------------------------------------------------
 
-* Options timeaggr control automatic aggregation of time (it should be checked before using it).
-$setglobal timeaggr
+* Calibrate the price side of electricity demand
+$setglobal DEFPCALIB
 *!option yes
-
-
-*-------------------------------------------------------------------------------
-* OptiFlow model.
-*-------------------------------------------------------------------------------
-$setglobal OPTIFLOW
+*
+* Calibrate the price side of heat demand
+$setglobal DHFPCALIB
 *!option yes
-* Addon APKNdisc: discrete size investments in PROC.
-$setglobal APKNdisc
-*!option yes
-*Investments in Optiflow technologies
-$setglobal inv yes
-*! option yes
-*Model solved as MIP
-$setglobal solveOptiFlowmip
-*! option yes
-
-* Debug possibilities:
-$Setglobal addEPStoL
-*! option yes
-* Not needed if there are no capacity bounds on internal proc
-* It will be needed if there are capacity bounds on some internal proc, therefore add them only in that case (requires some coding, TODO).
-* With such minimal use the infeasibilities will be moved to SOSIBU proc whenever possible.
-$Setglobal useQNODEslack
-*! option
-$Setglobal useSSBslack
-*! option yes
-$Setglobal useShareSlack
-*! option yes
-* Option uniquesol permit to use quadratic terms in QOBJ in order to attain unique solution.
-* Should be used for debug on small systems only.
-$Setglobal uniquesol
-*! option yes
-* Testing ONLY:
-$setglobal singlearea
-*! option yes
-* Testing ONLY:
-$setglobal addUP
-*! option yes
-*-------------------------------------------------------------------------------
-*Optiflow end
-*-------------------------------------------------------------------------------
 
 * In model Balbase4 (BB4) indicate the strategy for relative weighting of years
 $setglobal bb4weighty shareYYY
@@ -774,7 +829,9 @@ $setglobal ADDGROUP_DEMAND_SHIFT
 *--------------END OF IMPORT OF RESULTS----------------
 *--------------------------------------------
 
-
+* Options timeaggr control automatic aggregation of time segments (to be tested!!).
+$setglobal timeaggr
+*!option yes
 
 
 *===============================================================================
@@ -832,7 +889,14 @@ $setglobal INPUTDATAGDX2XLS
 $setglobal all_endofmodelgdx yes
 *!option yes     !Save the file all_endofmodel.gdx to the model folder
 
+* Print out welfare results
+$Setglobal welfare
+*!option yes
 
+* Allow for limited printout of inputdata and results, as defined by files syminput.inc and symoutput.inc, respectively.
+* Only in effect for BB3
+$Setglobal limitedresults
+*!option yes
 
 
 * Make some output in text format to show some results of an execution.
