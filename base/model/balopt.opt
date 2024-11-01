@@ -327,7 +327,7 @@ $setglobal FORCEDDOWNREDISPATCH
 *!option yes
 
 *Define which units will be allowed to change their commitment status (on/off) (requires Unit Commitment addon to be on)
-$setglobal CommitmentStatus  NoChange
+$setglobal CommitmentStatus  FastUnitsChange
 *!option NoChange         !Text  "The units will not be allowed to change their commitment, which will be taken from previous runs "
 *!option FastUnitsChange  !Text  "The slow units will not be allowed to change their commitment, which will be taken from previous runs "
 *!option None             !Text  "All the units will be allowed to change their commitment with respect to previous runs"
