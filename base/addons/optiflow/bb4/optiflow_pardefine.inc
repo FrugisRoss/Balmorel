@@ -175,9 +175,10 @@ $ifi %inv%==yes $if     EXIST '../data/OPTIFLOW_APROCKAPNEW.inc' $INCLUDE       
 $ifi %inv%==yes $if not EXIST '../data/OPTIFLOW_APROCKAPNEW.inc' $INCLUDE '../../base/data/OPTIFLOW_APROCKAPNEW.inc';
 $ifi %inv%==yes %semislash%;
 
-$ifi %inv%==yes SET IAPROCKAPNEW(YYY,AAA,PROC) 'Area, Proc where technology may be invested based on APKN and some implicit constraints';
-IAPROCKAPNEW(YYY,IA,PROC) = APROCKAPNEW(YYY,IA,PROC);    !! MORE LATER
-
+$ifi %inv%==yes SET IAPROCKAPNEW(YYY,AAA,PROC)	'Area, Proc where technology may be invested based on APKN and some implicit constraints';
+$ifi %inv%==yes SET IAPROCKAPNEW_notY(AAA,PROC)	'Same as IAPROCKAPNEW, but not for a year';
+IAPROCKAPNEW(Y,IA,PROC) = APROCKAPNEW(Y,IA,PROC);    !! MORE LATER
+IAPROCKAPNEW_notY(IA,PROC) = SUM(Y,IAPROCKAPNEW(Y,IA,PROC));
 
 * NB: for debugging, print and ailing memory nice to have FLOW elements in UPPERCASE og Proc elements in CamelCase.
 * NONONO: I now prefer the other way:  FLOW elements in CamelCase og Proc elements in UPPERCASE!
