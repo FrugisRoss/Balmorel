@@ -539,7 +539,11 @@ $setglobal baloptCCU yes
 *! option yes
 
 * OBS FF
-$setglobal baloptCCS
+$setglobal optiFossils
+*! option no
+* Buy fossil fuel substitutes at fixed cost for road, aviation, shipping
+
+$setglobal baloptCCS yes
 *! option yes
 * Require investments in CO2 sequestration in OptiFlow.
 * !! Requires the CCS addon and baloptgasbridge=yes !!
