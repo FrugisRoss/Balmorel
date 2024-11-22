@@ -21,10 +21,12 @@ IFPROC('WOODPELLETS','Wood_Pellets_Gen')=YES;
 
 $label nofuelbridge
 
-*Initializing the set IFPROC and IFFLOW if OPTIFLOW is enabled and the bridge of biogas between models, TMAD
+*Initializing the set IFPROC and IFFLOW if OPTIFLOW is enabled and the bridge of biogas between models
+*OBS FF
 $ifi not %baloptgasbridge%==yes $goto nogasbridge
-IFFLOW('BIOGAS','GASFLOW')=YES;
-IFPROC('BIOGAS','GasBuffer')=YES;
+
+IFFLOW('BIOGAS','SNG_FLOW_FOR_USE')=YES;
+IFPROC('BIOGAS','Gas_Buffer')=YES;
 
 $label nogasbridge
 

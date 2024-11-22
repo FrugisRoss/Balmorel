@@ -531,7 +531,7 @@ $setglobal baloptfuelbridge yes
 *! option yes
 * Connects biogas produced by OptiFlow to Balmorel.
 * Also sets balmorel biogas potential to 0
-$setglobal baloptgasbridge
+$setglobal baloptgasbridge yes
 *! option yes
 * Connects captured CO2 in Balmorel with CO2 use in OptiFlow
 * !! Requires the CCS addon!!!
