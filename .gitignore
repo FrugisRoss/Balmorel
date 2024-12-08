@@ -29,4 +29,5 @@ base/data/README.md
 *.log~3
 build
 /try
+/try_notworking
 %batfileMERGEWITHBASE%
