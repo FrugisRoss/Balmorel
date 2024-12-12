@@ -28,6 +28,6 @@ base/data/README.md
 *.log~2
 *.log~3
 build
-/try
-/try_notworking
+/Wood_endogenous
+/Wood_Agriculture_Endogenous
 %batfileMERGEWITHBASE%
