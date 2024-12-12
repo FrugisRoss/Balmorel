@@ -537,6 +537,10 @@ $setglobal baloptgasbridge yes
 * !! Requires the CCS addon!!!
 $setglobal baloptCCU yes
 *! option yes
+*Makes the straw and woodchips potential endogeous in Balmorel
+*Needs the baloptfuelbridge to be activated
+$setglobal baloptLU yes
+*! option yes
 
 * OBS FF
 $setglobal optiFossils

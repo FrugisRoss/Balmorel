@@ -8,20 +8,22 @@ $ifi not %baloptfuelbridge%==yes $goto nofuelbridge
 SET IFFLOW(FFF,FLOW)	"Fuel in Balmorel that corresponds to a flow in OptiFlow";
 IFFLOW(FFF,FLOW)=0;
 
-*IFFLOW('STRAW','STRAW_GEN_FLOW')=YES;
-*IFFLOW('WOODCHIPS','WOOD_GEN_FLOW')=YES;
-IFFLOW('WOODCHIPS','WOOD_FLOW_BAL')=YES; !!MODIFICATION FOR LU OPRIFLOW
-IFFLOW('STRAW','STRAW_FLOW_BAL')=YES; !!MODIFICATION FOR LU OPRIFLOW
 IFFLOW('WOODPELLETS','WOOD_PELLETS_GEN_FLOW')=YES;
+$ifi not %baloptLU%==yes IFFLOW('STRAW','STRAW_GEN_FLOW')=YES;
+$ifi not %baloptLU%==yes IFFLOW('WOODCHIPS','WOOD_GEN_FLOW')=YES;
+$ifi %baloptLU%==yes IFFLOW('WOODCHIPS','WOOD_FLOW_BAL')=YES; !!MODIFICATION FOR LU OPRIFLOW
+$ifi %baloptLU%==yes IFFLOW('STRAW','STRAW_FLOW_BAL')=YES; !!MODIFICATION FOR LU OPRIFLOW
+
 
 SET IFPROC(FFF,PROC)	"Fuel in Balmorel that corresponds to a flow in OptiFlow";
 IFPROC(FFF,PROC)=0;
 
-*IFPROC('STRAW','Straw_Gen')=YES;
-*IFPROC('WOODCHIPS','Wood_Gen')=YES;
-IFPROC('WOODCHIPS','Wood_for_Use')=YES; !!MODIFICATION FOR LU OPTIFLOW
-IFPROC('STRAW','Straw_for_Use')=YES; !!MODIFICATION FOR LU OPTIFLOW
 IFPROC('WOODPELLETS','Wood_Pellets_Gen')=YES;
+$ifi not %baloptLU%==yes IFPROC('STRAW','Straw_Gen')=YES;
+$ifi not %baloptLU%==yes IFPROC('WOODCHIPS','Wood_Gen')=YES;
+$ifi %baloptLU%==yes IFPROC('WOODCHIPS','Wood_for_Use')=YES; !!MODIFICATION FOR LU OPTIFLOW
+$ifi %baloptLU%==yes IFPROC('STRAW','Straw_for_Use')=YES; !!MODIFICATION FOR LU OPTIFLOW
+
 
 $label nofuelbridge
 
