@@ -105,14 +105,12 @@ SNG_FLOW_FOR_USE
 STRAW_FLOW                                                                                                         
 STRAW_FLOW_BAL                                                                                                     
 STRAW_FOR_ENERGY_FLOW                                                                                              
-STRAW_GEN_FLOW                                                                                                     
 TARFLOW                                                                                                            
 WHEAT_FLOW                                                                                                         
 WHEAT_LAND                                                                                                         
 WOOD_FLOW                                                                                                          
 WOOD_FLOW_BAL                                                                                                      
 WOOD_FOR_ENERGY_FLOW                                                                                               
-WOOD_GEN_FLOW                                                                                                      
 WOOD_MATERIAL_FLOW                                                                                                 
 WOOD_PELLETS_GEN_FLOW                                                                                              
 WOOD_PRODUCTION_LAND                                                                                               

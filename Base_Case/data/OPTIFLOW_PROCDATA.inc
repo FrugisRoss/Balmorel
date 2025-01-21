@@ -2,18 +2,6 @@ TABLE PROCDATA(PROC,PROCDATASET)    "Process data"
                                                                                                                                                                      
 *                                                          MEuro/GJ/h                                                    Euro/GJ/h                                   
                                                            PROCINVCOST         PROCKAPVARIABLE PROCFROMYEAR PROCLIFETIME PROCFIXCOST      /*   PROCVARCOST */        
-*Rossella LUOptiflow                                                                                                                                                 
-***Forest                                                                                                                                                            
-Wood_Production                                            EPS                 1               2020         100          0                                           
-Untouched_Forest                                           EPS                 1               2020         100          0                                           
-C_Rich_Soils_Extraction                                    EPS                 1               2020         100          0                                           
-New_Productive_Forest                                      EPS                 1               2020         100          0                                           
-Agriculture                                                EPS                 1               2020         100          0                                           
-Wheat_Agriculture                                          EPS                 1               2020         100          0                                           
-Barley_Agriculture                                         EPS                 1               2020         100          0                                           
-Rye_Agriculture                                            EPS                 1               2020         100          0                                           
-Oat_Agriculture                                            EPS                 1               2020         100          0                                           
-                                                                                                                                                                     
 ***CO2 DAC                                                                                                                                                           
 CO2_DAC_20                                                 5.8                 1               2020         30           210000                                      
 CO2_DAC_25                                                 4.3                 1               2025         30           160000                                      
@@ -25,13 +13,13 @@ CO2_DAC_50                                                 1.6                 1
 CO2_Sto                                                    1.52                1               2020         30           30435                                       
                                                                                                                                                                      
 ***CO2 Sequestration                                                                                                                                                 
-CO2_Seq_20                                                 1.942               1               2020         25           0                                           
-CO2_Seq_25                                                 1.942               1               2025         25           0                                           
-CO2_Seq_30                                                 1.942               1               2030         25           0                                           
-CO2_Seq_35                                                 1.942               1               2035         25           0                                           
-CO2_Seq_40                                                 1.942               1               2040         25           0                                           
-CO2_Seq_45                                                 1.942               1               2045         25           0                                           
-CO2_Seq_50                                                 1.942               1               2050         25           0                                           
+CO2_Seq_20                                                 0.77672             1               2020         25           0                                           
+CO2_Seq_25                                                 0.738652991558328   1               2025         25           0                                           
+CO2_Seq_30                                                 0.702451645300839   1               2030         25           0                                           
+CO2_Seq_35                                                 0.668024525216982   1               2035         25           0                                           
+CO2_Seq_40                                                 0.635284676570521   1               2040         25           0                                           
+CO2_Seq_45                                                 0.604149406272505   1               2045         25           0                                           
+CO2_Seq_50                                                 0.574540074018145   1               2050         25           0                                           
                                                                                                                                                                      
 ***Biogas supply                                                                                                                                                     
 Digestion_Tank_20                                          1.569198587517E-005 1               2020         20           0.001                                       
@@ -51,13 +39,13 @@ Methanation_40                                             0.282               1
 Methanation_45                                             0.247               1               2045         20           9880                                        
 Methanation_50                                             0.212               1               2050         20           8480                                        
                                                                                                                                                                      
-Biogas_Upgrading_20                                        0.1244              1               2020         20                                                       
-Biogas_Upgrading_25                                        0.1244              1               2025         20                                                       
-Biogas_Upgrading_30                                        0.1244              1               2030         20                                                       
-Biogas_Upgrading_35                                        0.1244              1               2035         20                                                       
-Biogas_Upgrading_40                                        0.1244              1               2040         20                                                       
-Biogas_Upgrading_45                                        0.1244              1               2045         20                                                       
-Biogas_Upgrading_50                                        0.1244              1               2050         20                                                       
+Biogas_Upgrading_20                                        0.0908249056941763  1               2020         20                                                       
+Biogas_Upgrading_25                                        0.0906122047151871  1               2025         20                                                       
+Biogas_Upgrading_30                                        0.0775574488698658  1               2030         20                                                       
+Biogas_Upgrading_35                                        0.0713369329822316  1               2035         20                                                       
+Biogas_Upgrading_40                                        0.0651164170945975  1               2040         20                                                       
+Biogas_Upgrading_45                                        0.064804653207653   1               2045         20                                                       
+Biogas_Upgrading_50                                        0.0644928893207086  1               2050         20                                                       
                                                                                                                                                                      
 ***Hydrogen                                                                                                                                                          
 Hydrogen_STO_Large_20                                      0.125               1               2020         20           5771                                        

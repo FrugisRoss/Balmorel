@@ -180,7 +180,6 @@ HydrogenBuffer_MWh
 HydrogenSource_MWh                                                                                                 
 KeroseneSource                                                                                                     
 Land_for_Wood_Production                                                                                           
-Linkstorage_Res                                                                                                    
 Manure_Gen                                                                                                         
 MDOSource                                                                                                          
 Methanation_20                                                                                                     
@@ -204,7 +203,6 @@ MethanolBuffer_Exp
 MethanolTotal                                                                                                      
 MethanolTotal_sum                                                                                                  
 Money_buffer_T                                                                                                     
-New_Productiove_Forest                                                                                             
 New_Productive_Forest                                                                                              
 Nitrogen_Production                                                                                                
 Oat_Agriculture                                                                                                    
@@ -223,7 +221,6 @@ SNG_Total
 Solid_Biomass                                                                                                      
 Straw_for_Energy                                                                                                   
 Straw_for_Use                                                                                                      
-Straw_Gen                                                                                                          
 Tar                                                                                                                
 TG_20                                                                                                              
 TG_25                                                                                                              
@@ -238,7 +235,6 @@ Wheat_Agriculture
 Wheat_Buffer                                                                                                       
 Wood_for_Energy                                                                                                    
 Wood_for_Use                                                                                                       
-Wood_Gen                                                                                                           
 Wood_Material_Buffer                                                                                               
 Wood_Pellets_Gen                                                                                                   
 Wood_Production                                                                                                    
