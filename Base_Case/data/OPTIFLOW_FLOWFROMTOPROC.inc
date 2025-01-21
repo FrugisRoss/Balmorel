@@ -99,12 +99,7 @@ Albertslund                                                                     
 Albertslund                                                                                                              .    CO2_After_Sto                 .    CO2_Before_Use                .    CO2_FLOW_OUT                     
                                                                                                                                                                                                                                      
 Albertslund                                                                                                              .    CO2_Before_Use                .    ProcEximTruckC                .    CO2_FLOW_USE                     
-Albertslund                                                                                                              .    ProcEximTruckC                .    CO2_Before_Use                .    CO2_FLOW_OUT                     
-Albertslund                                                                                                              .    CO2_Before_Use                .    ProcEximPipe                  .    CO2_FLOW_USE                     
-Albertslund                                                                                                              .    ProcEximPipe                  .    CO2_Before_Use                .    CO2_FLOW_OUT                     
-
-
-Albertslund                                                                                                              .    CO2_Before_Use                .    CO2_Use                       .    CO2_FLOW_USE                     
+Albertslund                                                                                                              .    ProcEximTruckC                .    CO2_Use                       .    CO2_FLOW_USE                     
                                                                                                                                                                                                                                      
 *------------------Sequestration------------------(OBS)                                                                                                                                                                              
 Albertslund                                                                                                              .    CO2_BIOGEN                    .    CO2_Seq_20                    .    CO2_FLOW_SEQ_BIOGEN              
@@ -136,14 +131,8 @@ Albertslund                                                                     
 Albertslund                                                                                                              .    CO2_Seq_50                    .    CO2_Seq_Sum                   .    CO2_FLOW_SEQ                     
                                                                                                                                                                                                                                      
 Albertslund                                                                                                              .    CO2_Seq_Sum                   .    ProcEximPipe                  .    CO2_FLOW_SEQ_SUM                 
-Albertslund                                                                                                              .    ProcEximPipe                  .    CO2_Seq_Sum                   .    CO2_FLOW_SEQ
-
-Albertslund                                                                                                              .    CO2_Seq_Sum                   .    ProcEximPipeOff               .    CO2_FLOW_SEQ_SUM                 
-Albertslund                                                                                                              .    ProcEximPipeOff               .    CO2_Seq_Sum                   .    CO2_FLOW_SEQ
-                 
-
-Albertslund                                                                                                              .    CO2_Seq_Sum                   .    CO2_Seq_Buffer                .    CO2_FLOW_SEQ_SUM                 
-
+Albertslund                                                                                                              .    ProcEximPipe                  .    CO2_Seq_Buffer                .    CO2_FLOW_SEQ_SUM                 
+                                                                                                                                                                                                                                     
 *------------------Land Use------------------                                                                                                                                                                                        
 $ifi not %baloptLU%==yes $goto NO_LU                                                                                                                                                                                                 
 *Land Source                                                                                                                                                                                                                         
@@ -211,8 +200,6 @@ Albertslund                                                                     
 *------------------Biogas grid------------------                                                                                                                                                                                     
 Albertslund                                                                                                              .    Manure_Gen                    .    Wet_Biomass                   .    MANURE_GEN_FLOW                  
 Albertslund                                                                                                              .    Wet_Biomass                   .    Biomass_For_Biogas            .    BIOMASS_FLOW_WET                 
-Albertslund                                                                                                              .    Wet_Biomass                   .    ProcEximTruck                 .    BIOMASS_FLOW_WET                 
-Albertslund                                                                                                              .    ProcEximTruck                 .    Biomass_For_Biogas            .    BIOMASS_FLOW_WET                 
                                                                                                                                                                                                                                      
 Albertslund                                                                                                              .    Biomass_For_Biogas            .    Digestion_Tank_20             .    BIOMASS_FLOW_WET                 
 Albertslund                                                                                                              .    Biomass_For_Biogas            .    Digestion_Tank_25             .    BIOMASS_FLOW_WET                 
@@ -855,5 +842,5 @@ Albertslund                                                                     
 /;                                                                                                                                                                                                                                   
                                                                                                                                                                                                                                      
                                                                                                                                                                                                                                      
-FLOWFROMTOPROC(Y,AAA,IPROCFROM,IPROCTO,FLOW)$AAAOPTIFLOW(AAA)=FLOWFROMTOPROC_A('Albertslund',IPROCFROM,IPROCTO,FLOW);
-FLOWFROMTOPROC(Y,AAA,'CO2_Source_Fossil','CO2_FOS','CO2_SOURCE_FLOW_FOSSIL')$(YVALUE(Y) GE 2040 AND AAAOPTIFLOW(AAA)) = EPS;                                                                                                                                
+FLOWFROMTOPROC(Y,AAA,IPROCFROM,IPROCTO,FLOW)$MUNAAAOPTIFLOW(AAA)=FLOWFROMTOPROC_A('Albertslund',IPROCFROM,IPROCTO,FLOW);                                                                                                             
+FLOWFROMTOPROC(Y,AAA,'CO2_Source_Fossil','CO2_FOS','CO2_SOURCE_FLOW_FOSSIL')$(YVALUE(Y) GE 2040) = 0;                                                                                                                                

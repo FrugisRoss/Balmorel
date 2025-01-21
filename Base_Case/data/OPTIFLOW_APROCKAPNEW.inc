@@ -334,13 +334,13 @@ $label NO_BIOGAS
 /                                                                                                                                                                                              
 ;                                                                                                                                                                                              
                                                                                                                                                                                                
-APROCKAPNEW(Y,AAA,'CO2_DAC_20')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_20');                                                                                                      
- APROCKAPNEW(Y,AAA,'CO2_DAC_25')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_25');                                                                                                     
-APROCKAPNEW(Y,AAA,'CO2_DAC_30')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_30');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_35')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_35');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_40')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_40');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_45')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_45');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_50')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_50');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_20')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_20');                                                                                                      
+ APROCKAPNEW(Y,AAA,'CO2_DAC_25')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_25');                                                                                                     
+APROCKAPNEW(Y,AAA,'CO2_DAC_30')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_30');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_35')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_35');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_40')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_40');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_45')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_45');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_50')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_50');                                                                                                      
                                                                                                                                                                                                
 APROCKAPNEW(Y,AAA,'CO2_STO')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_STO');                                                                                                            
                                                                                                                                                                                                

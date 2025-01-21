@@ -1751,11 +1751,7 @@ TRANSDIST('ProcEximPipe','Naestved','Vordingborg')=34.9;
 TRANSDIST('ProcEximPipe','Stevns','Vordingborg')=36.6;                                                 
 TRANSDIST('ProcEximPipe','Koege','Vordingborg')=47.9;                                                  
 TRANSDIST('ProcEximPipe','Faaborg-Midtfyn','Aeroe')=35.3;                                              
-                     
-TRANSDIST('ProcEximPipeOff','Esbjerg','SiriGF')=255;
-TRANSDIST('ProcEximPipeOff','SiriGF','Esbjerg')=255;   
-
-                                                   
+TRANSDIST('ProcEximPipe','Esbjerg','SiriGF')=255;                                                      
 ;                                                                                                      
 TRANSDIST(PROC,IAAAE,IAAAI)$((NOT AAAOPTIFLOW(IAAAE)) OR (NOT AAAOPTIFLOW(IAAAI))) = 0;                
 TRANSDIST(PROC,IAAAI,IAAAE)$TRANSDIST(PROC,IAAAE,IAAAI) = TRANSDIST(PROC,IAAAE,IAAAI);                 
