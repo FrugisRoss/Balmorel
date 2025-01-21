@@ -102,7 +102,7 @@ Aeroe
 Aabenraa                                                                          
 Aalborg                                                                           
 Aarhus                                                                            
-*SiriGF                                                                            
+SiriGF                                                                            
 /;                                                                                
 
 SET AAAEMITTERS(AAA)

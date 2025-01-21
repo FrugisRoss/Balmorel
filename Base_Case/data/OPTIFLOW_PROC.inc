@@ -61,8 +61,7 @@ CO2
 CO2_After_Sto                                                                                                      
 CO2_Before_Use                                                                                                     
 CO2_Biogas                                                                                                         
-CO2_BIOGEN
-CO2_BIOGEN_TOT                                                                                                         
+CO2_BIOGEN                                                                                                         
 CO2_DAC                                                                                                            
 CO2_DAC_20                                                                                                         
 CO2_DAC_25                                                                                                         
@@ -72,8 +71,7 @@ CO2_DAC_40
 CO2_DAC_45                                                                                                         
 CO2_DAC_50                                                                                                         
 CO2_DAC_Total                                                                                                      
-CO2_FOS
-CO2_FOS_TOT                                                                                                            
+CO2_FOS                                                                                                            
 CO2_Grid_In                                                                                                        
 CO2_Grid_Out                                                                                                       
 CO2_Land_Buffer                                                                                                    

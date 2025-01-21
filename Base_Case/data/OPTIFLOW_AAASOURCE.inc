@@ -102,5 +102,5 @@ Aeroe
 Aabenraa                                                                 
 Aalborg                                                                  
 Aarhus                                                                   
-*SiriGF                                                                   
+SiriGF                                                                   
 /;                                                                       

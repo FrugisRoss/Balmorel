@@ -251,8 +251,5 @@ Biogas_Upgrading_35
 Biogas_Upgrading_40                                           
 Biogas_Upgrading_45                                           
 Biogas_Upgrading_50                                           
-CO2_Biogas
-
-CO2_FOS_TOT
-CO2_BIOGEN_TOT
+CO2_Biogas                                                    
 /;                                                            
