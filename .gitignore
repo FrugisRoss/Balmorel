@@ -12,7 +12,7 @@
 **/*.gpr
 **/*.dat
 **/*.cmd
-
+/base/data
 **/model/Balmorel.l*
 **/output/economic/*.*
 /base/bui/gamsscr/*.*

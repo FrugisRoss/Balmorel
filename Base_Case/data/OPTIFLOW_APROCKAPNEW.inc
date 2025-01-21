@@ -17,7 +17,6 @@ Kalundborg
 Soroe                                                                                                                                                                                          
 Lolland                                                                                                                                                                                        
 Randers                                                                                                                                                                                        
-SiriGF                                                                                                                                                                                         
                                                                                                                                                                                                
 /;                                                                                                                                                                                             
                                                                                                                                                                                                
@@ -334,23 +333,23 @@ $label NO_BIOGAS
 /                                                                                                                                                                                              
 ;                                                                                                                                                                                              
                                                                                                                                                                                                
-APROCKAPNEW(Y,AAA,'CO2_DAC_20')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_20');                                                                                                      
- APROCKAPNEW(Y,AAA,'CO2_DAC_25')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_25');                                                                                                     
-APROCKAPNEW(Y,AAA,'CO2_DAC_30')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_30');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_35')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_35');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_40')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_40');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_45')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_45');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_50')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_50');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_20')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_20');                                                                                                      
+ APROCKAPNEW(Y,AAA,'CO2_DAC_25')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_25');                                                                                                     
+APROCKAPNEW(Y,AAA,'CO2_DAC_30')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_30');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_35')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_35');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_40')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_40');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_45')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_45');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_50')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_50');                                                                                                      
                                                                                                                                                                                                
-APROCKAPNEW(Y,AAA,'CO2_STO')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_STO');                                                                                                            
+APROCKAPNEW(Y,AAA,'CO2_STO')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_STO');                                                                                                            
                                                                                                                                                                                                
-APROCKAPNEW(Y,AAA,'CO2_Seq_20')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_20');                                                                                                      
- APROCKAPNEW(Y,AAA,'CO2_Seq_25')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_25');                                                                                                     
- APROCKAPNEW(Y,AAA,'CO2_Seq_30')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_30');                                                                                                     
-APROCKAPNEW(Y,AAA,'CO2_Seq_35')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_35');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_Seq_40')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_40');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_Seq_45')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_45');                                                                                                      
- APROCKAPNEW(Y,AAA,'CO2_Seq_50')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_50');                                                                                                     
+APROCKAPNEW(Y,AAA,'CO2_Seq_20')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_20');                                                                                                      
+ APROCKAPNEW(Y,AAA,'CO2_Seq_25')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_25');                                                                                                     
+ APROCKAPNEW(Y,AAA,'CO2_Seq_30')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_30');                                                                                                     
+APROCKAPNEW(Y,AAA,'CO2_Seq_35')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_35');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_Seq_40')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_40');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_Seq_45')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_45');                                                                                                      
+ APROCKAPNEW(Y,AAA,'CO2_Seq_50')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_50');                                                                                                     
                                                                                                                                                                                                
                                                                                                                                                                                                
 APROCKAPNEW(Y,AAA,'Digestion_Tank_20')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Digestion_Tank_20');                                                                                        
