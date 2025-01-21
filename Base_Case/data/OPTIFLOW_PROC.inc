@@ -209,10 +209,8 @@ New_Productive_Forest
 Nitrogen_Production                                                                                                
 Oat_Agriculture                                                                                                    
 Oat_Buffer                                                                                                         
-ProcEximPipe                                                                                                       
 ProcEximShip                                                                                                       
 ProcEximTruck                                                                                                      
-ProcEximTruckC                                                                                                     
 Productive_Forest                                                                                                  
 Productive_Forest_Land_Gen                                                                                         
 Road_fuels_sum                                                                                                     

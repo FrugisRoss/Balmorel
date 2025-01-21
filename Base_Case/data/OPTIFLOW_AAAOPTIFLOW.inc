@@ -102,19 +102,5 @@ Aeroe
 Aabenraa                                                                          
 Aalborg                                                                           
 Aarhus                                                                            
+                                                                                  
 /;                                                                                
-
-SET AAAEMITTERS(AAA)
-
-/
-Aalborg                                                                           
-Aarhus
-Esbjerg  
-Odense
-Koebenhavn 
-Hvidovre
-/;
-
-SET AAANOTEMITTERS(AAA);
-
-AAANOTEMITTERS(AAA) = YES$(NOT AAAEMITTERS(AAA));

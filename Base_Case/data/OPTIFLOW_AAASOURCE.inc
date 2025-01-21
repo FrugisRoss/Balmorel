@@ -3,6 +3,7 @@ SET AAASOURCE(AAA)     'Areas that are used in the OptiFLow calculations'
 *Rossella LUOptiflow                                                     
                                                                          
 /                                                                        
+                                                                         
 Albertslund                                                              
 Alleroed                                                                 
 Assens                                                                   
@@ -102,4 +103,5 @@ Aeroe
 Aabenraa                                                                 
 Aalborg                                                                  
 Aarhus                                                                   
+                                                                         
 /;                                                                       
