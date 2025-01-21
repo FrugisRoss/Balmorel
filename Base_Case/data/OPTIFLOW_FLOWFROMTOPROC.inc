@@ -80,9 +80,9 @@ Albertslund                                                                     
 Albertslund                                                                                                              .    CO2_DAC_Total                 .    CO2_Seq_Sum                   .    CO2_FLOW_SEQ                     
                                                                                                                                                                                                                                      
 *------------------BECCS------------------                                                                                                                                                                                           
-Albertslund                                                                                                              .    CO2_Source_Biogen             .    CO2_BIOGEN_TOT                .    CO2_SOURCE_FLOW_BIOGEN           
-Albertslund                                                                                                              .    CO2_BIOGEN_TOT                .    CO2                           .    CO2_FLOW_BIOGEN                  
-Albertslund                                                                                                              .    CO2_BIOGEN_TOT                .    CO2_BIOGEN                    .    CO2_FLOW_SEQ_BIOGEN                  
+*Albertslund                                                                                                              .    CO2_Source_Biogen             .    CO2_BIOGEN_TOT                .    CO2_SOURCE_FLOW_BIOGEN           
+Albertslund                                                                                                              .    CO2_Source_Biogen             .    CO2                           .    CO2_FLOW_BIOGEN                  
+Albertslund                                                                                                              .    CO2_Source_Biogen             .    CO2_BIOGEN                    .    CO2_FLOW_SEQ_BIOGEN                  
 
 Albertslund                                                                                                              .    CO2_BIOGEN                    .    ProcEximPipe                  .    CO2_FLOW_SEQ_BIOGEN                
 Albertslund                                                                                                              .    ProcEximPipe                  .    CO2_BIOGEN                    .    CO2_FLOW_SEQ_BIOGEN
@@ -91,9 +91,9 @@ Albertslund                                                                     
 Albertslund                                                                                                              .    ProcEximPipeOff               .    CO2_BIOGEN                    .    CO2_FLOW_SEQ_BIOGEN
 
 *------------------Fossil CCS------------------                                                                                                                                                                                      
-Albertslund                                                                                                              .    CO2_Source_Fossil             .    CO2_FOS_TOT                   .    CO2_SOURCE_FLOW_FOSSIL           
-Albertslund                                                                                                              .    CO2_FOS_TOT                   .    CO2                           .    CO2_FLOW_FOSSIL                  
-Albertslund                                                                                                              .    CO2_FOS_TOT                   .    CO2_FOS                       .    CO2_FLOW_SEQ_FOSSIL                  
+*Albertslund                                                                                                              .    CO2_Source_Fossil             .    CO2_FOS_TOT                   .    CO2_SOURCE_FLOW_FOSSIL           
+Albertslund                                                                                                              .    CO2_Source_Fossil             .    CO2                           .    CO2_FLOW_FOSSIL                  
+Albertslund                                                                                                              .    CO2_Source_Fossil             .    CO2_FOS                       .    CO2_FLOW_SEQ_FOSSIL                  
 
 Albertslund                                                                                                              .    CO2_FOS                       .    ProcEximPipe                  .    CO2_FLOW_SEQ_FOSSIL                
 Albertslund                                                                                                              .    ProcEximPipe                  .    CO2_FOS                       .    CO2_FLOW_SEQ_FOSSIL

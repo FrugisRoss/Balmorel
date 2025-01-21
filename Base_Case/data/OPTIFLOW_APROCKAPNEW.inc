@@ -17,7 +17,7 @@ Kalundborg
 Soroe                                                                                                                                                                                          
 Lolland                                                                                                                                                                                        
 Randers                                                                                                                                                                                        
-SiriGF                                                                                                                                                                                         
+*SiriGF                                                                                                                                                                                         
                                                                                                                                                                                                
 /;                                                                                                                                                                                             
                                                                                                                                                                                                
@@ -334,15 +334,15 @@ $label NO_BIOGAS
 /                                                                                                                                                                                              
 ;                                                                                                                                                                                              
                                                                                                                                                                                                
-APROCKAPNEW(Y,AAA,'CO2_DAC_20')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_20');                                                                                                      
- APROCKAPNEW(Y,AAA,'CO2_DAC_25')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_25');                                                                                                     
-APROCKAPNEW(Y,AAA,'CO2_DAC_30')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_30');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_35')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_35');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_40')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_40');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_45')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_45');                                                                                                      
-APROCKAPNEW(Y,AAA,'CO2_DAC_50')$MUNAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_50');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_20')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_20');                                                                                                      
+ APROCKAPNEW(Y,AAA,'CO2_DAC_25')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_25');                                                                                                     
+APROCKAPNEW(Y,AAA,'CO2_DAC_30')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_30');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_35')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_35');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_40')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_40');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_45')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_45');                                                                                                      
+APROCKAPNEW(Y,AAA,'CO2_DAC_50')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_DAC_50');                                                                                                      
                                                                                                                                                                                                
-APROCKAPNEW(Y,AAA,'CO2_STO')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_STO');                                                                                                            
+APROCKAPNEW(Y,AAA,'CO2_STO')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_STO');                                                                                                            
                                                                                                                                                                                                
 APROCKAPNEW(Y,AAA,'CO2_Seq_20')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_20');                                                                                                      
  APROCKAPNEW(Y,AAA,'CO2_Seq_25')$CCSAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','CO2_Seq_25');                                                                                                     

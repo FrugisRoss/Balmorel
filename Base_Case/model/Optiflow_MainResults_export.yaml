@@ -1,0 +1,17 @@
+- GDXReader:
+    file: C:\Users\sigur\OneDrive - Politecnico di Milano\polimi\magistrale\DTU\Balmorel\Base_Case\model\Optiflow_MainResults.gdx
+    symbols: 
+      - name: EMI_YCRAG
+- ExcelWriter:
+    file: C:\Users\sigur\OneDrive - Politecnico di Milano\polimi\magistrale\DTU\Balmorel\Base_Case\model\Optiflow_MainResults_export.xlsx
+    valueSubstitutions: {
+      EPS: EPS,
+      INF: INF,
+      -INF: -INF,
+      UNDEF: UNDEF,
+      NA: NA
+    }
+    symbols:
+      - name: EMI_YCRAG
+        range: EMI_YCRAG!A1
+        columnDimension: 0
