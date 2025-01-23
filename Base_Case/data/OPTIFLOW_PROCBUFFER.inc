@@ -44,4 +44,5 @@ Oat_Buffer
 Straw_for_Use                                                          
 Wood_for_Energy                                                        
 Straw_for_Energy                                                       
+Solid_Biomass                                                          
 /;                                                                     

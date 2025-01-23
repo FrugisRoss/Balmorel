@@ -240,8 +240,12 @@ Rye_Buffer
 Oat_Buffer                                                    
 Straw_for_Energy                                              
 Straw_for_Use                                                 
-*Wood_Gen                                                     
-*Straw_Gen                                                    
-                                                              
+Wood                                                          
+Straw                                                         
+CO2_BIOGEN_TOT                                                
+CO2_FOS_TOT                                                   
 Solid_Biomass                                                 
+ProcEximPipe                                                  
+CO2_DAC_Sum                                                   
+CO2_Seq_BIOGAS                                                
 /;                                                            
