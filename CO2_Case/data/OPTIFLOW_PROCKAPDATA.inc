@@ -1,9 +1,9 @@
 SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative to FLOW and in/out direction ()"                                                                                     
 /                                                                                                                                                                                                   
                                                                                                                                                                                                     
-                                                                                                                                                                                                    
+***CO2                                                                                                                                                                                              
 2020                                                                                                            .    Wood_Production          .    PRODUCTIVE_FOREST_LAND        .    IFLOWINOUT_IN 
-2025                                                                                                            .    Untouched_Forest         .    NEW_UNTOUCHED_FOREST_LAND     .    IFLOWINOUT_IN 
+*2020                                                                                                           .    Untouched_Forest         .    NEW_UNTOUCHED_FOREST_LAND     .    IFLOWINOUT_IN 
 2020                                                                                                            .    C_Rich_Soils_Extraction  .    C_RICH_LAND                   .    IFLOWINOUT_IN 
 2020                                                                                                            .    New_Productive_Forest    .    NEW_PRODUCTIVE_FOREST_LAND_IN .    IFLOWINOUT_IN 
 2020                                                                                                            .    Wheat_Agriculture        .    WHEAT_LAND                    .    IFLOWINOUT_IN 
@@ -141,6 +141,13 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    E_FT_45                  .    E_FT_SUM_FLOW                 .    IFLOWINOUT_OUT
 2020                                                                                                            .    E_FT_50                  .    E_FT_SUM_FLOW                 .    IFLOWINOUT_OUT
                                                                                                                                                                                                     
+2020                                                                                                            .    Pyrolysis_Straw_20       .    STRAW_FLOW_PY                 .    IFLOWINOUT_IN 
+2020                                                                                                            .    Pyrolysis_Straw_25       .    STRAW_FLOW_PY                 .    IFLOWINOUT_IN 
+2020                                                                                                            .    Pyrolysis_Straw_30       .    STRAW_FLOW_PY                 .    IFLOWINOUT_IN 
+2020                                                                                                            .    Pyrolysis_Straw_35       .    STRAW_FLOW_PY                 .    IFLOWINOUT_IN 
+2020                                                                                                            .    Pyrolysis_Straw_40       .    STRAW_FLOW_PY                 .    IFLOWINOUT_IN 
+2020                                                                                                            .    Pyrolysis_Straw_45       .    STRAW_FLOW_PY                 .    IFLOWINOUT_IN 
+2020                                                                                                            .    Pyrolysis_Straw_50       .    STRAW_FLOW_PY                 .    IFLOWINOUT_IN 
                                                                                                                                                                                                     
                                                                                                                                                                                                     
 /;                                                                                                                                                                                                  

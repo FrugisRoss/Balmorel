@@ -44,5 +44,6 @@ Oat_Buffer
 Straw_for_Use                                                          
 Wood_for_Energy                                                        
 Straw_for_Energy                                                       
-CO2_Land                                                               
+Biooil_Buffer                                                          
+CO2_Biochar_Buffer                                                     
 /;                                                                     

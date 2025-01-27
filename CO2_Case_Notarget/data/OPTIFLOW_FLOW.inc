@@ -25,8 +25,11 @@ BIOMASS_BJ_H2
 BIOMASS_FLOW_SOLID                                                                                                 
 BIOMASS_FLOW_WET                                                                                                   
 BIOMASS_TG                                                                                                         
+BIOOIL_FLOW                                                                                                        
+                                                                                                     
 C_RICH_LAND                                                                                                        
 CO2_FLOW                                                                                                           
+CO2_FLOW_BIOCHAR                                                                                                   
 CO2_FLOW_BIOGAS                                                                                                    
 CO2_FLOW_BIOGEN                                                                                                    
 CO2_FLOW_CRS                                                                                                       
@@ -40,7 +43,9 @@ CO2_FLOW_NPF
 CO2_FLOW_NUF                                                                                                       
 CO2_FLOW_OUT                                                                                                       
 CO2_FLOW_SEQ                                                                                                       
+CO2_FLOW_SEQ_BIOGAS                                                                                                
 CO2_FLOW_SEQ_BIOGEN                                                                                                
+CO2_FLOW_SEQ_DAC                                                                                                   
 CO2_FLOW_SEQ_FOSSIL                                                                                                
 CO2_FLOW_SEQ_SUM                                                                                                   
 CO2_FLOW_STO                                                                                                       
@@ -79,6 +84,7 @@ HYDROGEN_FLOW_FT
 HYDROGEN_FLOW_ME                                                                                                   
 HYDROGEN_FLOW_NoST                                                                                                 
 HYDROGEN_FLOW_OUT                                                                                                  
+HYDROGEN_FLOW_PY                                                                                                   
 HYDROGEN_FLOW_SNG                                                                                                  
 HYDROGEN_FLOW_ST_Large                                                                                             
 HYDROGEN_FLOW_ST_Small                                                                                             
@@ -105,15 +111,14 @@ SNG_FLOW
 SNG_FLOW_FOR_USE                                                                                                   
 STRAW_FLOW                                                                                                         
 STRAW_FLOW_BAL                                                                                                     
+STRAW_FLOW_PY                                                                                                      
 STRAW_FOR_ENERGY_FLOW                                                                                              
-STRAW_GEN_FLOW                                                                                                     
 TARFLOW                                                                                                            
 WHEAT_FLOW                                                                                                         
 WHEAT_LAND                                                                                                         
 WOOD_FLOW                                                                                                          
 WOOD_FLOW_BAL                                                                                                      
 WOOD_FOR_ENERGY_FLOW                                                                                               
-WOOD_GEN_FLOW                                                                                                      
 WOOD_MATERIAL_FLOW                                                                                                 
 WOOD_PELLETS_GEN_FLOW                                                                                              
 WOOD_PRODUCTION_LAND                                                                                               
