@@ -39,7 +39,9 @@ CO2_FLOW_NPF
 CO2_FLOW_NUF                                                                                                       
 CO2_FLOW_OUT                                                                                                       
 CO2_FLOW_SEQ                                                                                                       
+CO2_FLOW_SEQ_BIOGAS                                                                                                
 CO2_FLOW_SEQ_BIOGEN                                                                                                
+CO2_FLOW_SEQ_DAC                                                                                                   
 CO2_FLOW_SEQ_FOSSIL                                                                                                
 CO2_FLOW_SEQ_SUM                                                                                                   
 CO2_FLOW_STO                                                                                                       

@@ -1,6 +1,6 @@
 PARAMETER MINFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitations (U/year)"                                                                                           
 /                                                                                                                                                                                     
-*Rossella_LUOptiflow ï¿½                                                                                                                                                                
+*Rossella_LUOptiflow                                                                                                                                                                  
 $ifi not %baloptLU%==yes $goto NO_LU                                                                                                                                                  
 2050                                                                                         .    DENMARK        .    Wood_Material_Buffer .    WOOD_MATERIAL_FLOW 1084440            
 2050                                                                                         .    DENMARK        .    Wheat_Buffer         .    WHEAT_FLOW         2654800            
@@ -11,8 +11,7 @@ $ifi not %baloptLU%==yes $goto NO_LU
                                                                                                                                                                                       
 $label NO_LU                                                                                                                                                                          
                                                                                                                                                                                       
-*2050                                                                                         .    DENMARK        .    Tar                  .    TARFLOW            0.01
-
+*2050                                                                                        .    DENMARK        .    CO2_Seq_Buffer       .    CO2_FLOW_SEQ_SUM   10                 
                                                                                                                                                                                       
 2050                                                                                         .    AUSTRIA        .    SeaBuffer            .    SEAFLOW            1161965.64626224   
 2050                                                                                         .    AUSTRIA        .    RoadBuffer           .    ROADFLOW           16200520.0256962   

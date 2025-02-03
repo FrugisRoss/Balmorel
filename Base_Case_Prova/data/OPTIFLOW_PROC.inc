@@ -62,6 +62,7 @@ CO2_After_Sto
 CO2_Before_Use                                                                                                     
 CO2_Biogas                                                                                                         
 CO2_BIOGEN                                                                                                         
+CO2_BIOGEN_TOT                                                                                                     
 CO2_DAC                                                                                                            
 CO2_DAC_20                                                                                                         
 CO2_DAC_25                                                                                                         
@@ -70,8 +71,10 @@ CO2_DAC_35
 CO2_DAC_40                                                                                                         
 CO2_DAC_45                                                                                                         
 CO2_DAC_50                                                                                                         
+CO2_DAC_Sum                                                                                                        
 CO2_DAC_Total                                                                                                      
 CO2_FOS                                                                                                            
+CO2_FOS_TOT                                                                                                        
 CO2_Grid_In                                                                                                        
 CO2_Grid_Out                                                                                                       
 CO2_Land_Buffer                                                                                                    
@@ -82,6 +85,7 @@ CO2_Seq_35
 CO2_Seq_40                                                                                                         
 CO2_Seq_45                                                                                                         
 CO2_Seq_50                                                                                                         
+CO2_Seq_BIOGAS                                                                                                     
 CO2_Seq_Buffer                                                                                                     
 CO2_Seq_Sum                                                                                                        
 CO2_Source_Biogen                                                                                                  
@@ -209,6 +213,7 @@ Oat_Agriculture
 Oat_Buffer                                                                                                         
 ProcEximShip                                                                                                       
 ProcEximTruck                                                                                                      
+ProcEximTruckC                                                                                                     
 Productive_Forest                                                                                                  
 Productive_Forest_Land_Gen                                                                                         
 Road_fuels_sum                                                                                                     
@@ -219,6 +224,7 @@ Sea_fuels_sum
 SeaBuffer                                                                                                          
 SNG_Total                                                                                                          
 Solid_Biomass                                                                                                      
+Straw                                                                                                              
 Straw_for_Energy                                                                                                   
 Straw_for_Use                                                                                                      
 Tar                                                                                                                
@@ -233,6 +239,7 @@ Untouched_Forest
 Wet_Biomass                                                                                                        
 Wheat_Agriculture                                                                                                  
 Wheat_Buffer                                                                                                       
+Wood                                                                                                               
 Wood_for_Energy                                                                                                    
 Wood_for_Use                                                                                                       
 Wood_Material_Buffer                                                                                               

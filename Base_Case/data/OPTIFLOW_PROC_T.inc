@@ -245,7 +245,7 @@ Straw
 CO2_BIOGEN_TOT                                                
 CO2_FOS_TOT                                                   
 Solid_Biomass                                                 
-ProcEximPipe                                                  
+ProcEximTruckC                                                
 CO2_DAC_Sum                                                   
 CO2_Seq_BIOGAS                                                
 /;                                                            

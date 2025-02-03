@@ -7,6 +7,7 @@ AIRFLOW
 AMMONIA_FLOW                                                                                                       
 AMMONIA_FLOW_EXP                                                                                                   
 BARLEY_FLOW                                                                                                        
+BARLEY_FLOW_IMP                                                                                                    
 BARLEY_LAND                                                                                                        
 BIO_ME_FLOW                                                                                                        
 BIO_TG_FLOW                                                                                                        
@@ -25,7 +26,8 @@ BIOMASS_BJ_H2
 BIOMASS_FLOW_SOLID                                                                                                 
 BIOMASS_FLOW_WET                                                                                                   
 BIOMASS_TG                                                                                                         
-BIOOIL_FLOW                                                                                                                                                                                                            
+BIOOIL_FLOW                                                                                                        
+                                                                                                    
 C_RICH_LAND                                                                                                        
 CO2_FLOW                                                                                                           
 CO2_FLOW_BIOCHAR                                                                                                   
@@ -99,11 +101,13 @@ NEW_PRODUCTIVE_FOREST_LAND_IN
 NEW_UNTOUCHED_FOREST_LAND                                                                                          
 NITROGEN_FLOW                                                                                                      
 OAT_FLOW                                                                                                           
+OAT_FLOW_IMP                                                                                                       
 OAT_LAND                                                                                                           
 OPERATIONCOST                                                                                                      
 PRODUCTIVE_FOREST_LAND                                                                                             
 ROADFLOW                                                                                                           
 RYE_FLOW                                                                                                           
+RYE_FLOW_IMP                                                                                                       
 RYE_LAND                                                                                                           
 SEAFLOW                                                                                                            
 SNG_FLOW                                                                                                           
@@ -114,6 +118,7 @@ STRAW_FLOW_PY
 STRAW_FOR_ENERGY_FLOW                                                                                              
 TARFLOW                                                                                                            
 WHEAT_FLOW                                                                                                         
+WHEAT_FLOW_IMP                                                                                                     
 WHEAT_LAND                                                                                                         
 WOOD_FLOW                                                                                                          
 WOOD_FLOW_BAL                                                                                                      

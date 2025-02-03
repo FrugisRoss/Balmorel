@@ -54,7 +54,7 @@ ICO2('CO2_Source_Fossil','CO2_SOURCE_FLOW_FOSSIL') = YES;
 SET ICO2_CC(PROC,FLOW)			"Set of PROC/FLOW pairs that deliver CO2 captured in OptiFlow to a pool for CS/CU";
 ICO2_CC(PROC,FLOW)=0;
 ICO2_CC('CO2_DAC','CO2_FLOW_DAC') = YES;
-*ICO2_CC('CO2_Land_Buffer','CO2_FLOW_LAND') = YES;
+$ifi %baloptLUCO2%==yes ICO2_CC('CO2_Land','CO2_FLOW_LAND') = YES;
 *ICO2_CC('CO2_Biochar_Buffer','CO2_FLOW_BIOCHAR') = YES;
 
 *Re-ad CO2 used for CU in OptiFlow
