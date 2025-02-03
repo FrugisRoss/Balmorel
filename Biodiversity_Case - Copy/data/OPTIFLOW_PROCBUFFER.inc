@@ -35,7 +35,7 @@ Gas_Buffer
                                                                        
 *Rossella LUOptiflow                                                   
 Wood_Material_Buffer                                                   
-CO2_Land_Buffer                                                        
+                                                        
 Wood_for_Use                                                           
 Wheat_Buffer                                                           
 Barley_Buffer                                                          
