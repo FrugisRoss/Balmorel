@@ -35,7 +35,7 @@ Gas_Buffer
                                                                        
 *Rossella LUOptiflow                                                   
 Wood_Material_Buffer                                                   
-*CO2_Land_Buffer                                                       
+CO2_Land_Buffer                                                       
 Wood_for_Use                                                           
 Wheat_Buffer                                                           
 Barley_Buffer                                                          
@@ -46,7 +46,7 @@ Wood_for_Energy
 Straw_for_Energy                                                       
 Biooil_Buffer                                                          
 CO2_Biochar_Buffer                                                     
-CO2_Land_Buffer                                                              
+*CO2_Land                                                             
 Untouched_Forest                                                       
 C_Rich_Soils_Extraction                                                
 /;                                                                     

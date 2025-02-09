@@ -545,7 +545,7 @@ $setglobal baloptLU yes
 $setglobal baloptLUCO2 yes
 
 * OBS FF
-$setglobal optiFossils 
+$setglobal optiFossils yes
 *! option no
 * Buy fossil fuel substitutes at fixed cost for road, aviation, shipping
 
