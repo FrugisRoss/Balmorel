@@ -46,7 +46,7 @@ Wood_for_Energy
 Straw_for_Energy                                                       
 Biooil_Buffer                                                          
 CO2_Biochar_Buffer                                                     
-CO2_Land                                                               
+CO2_Land_Buffer                                                              
 Untouched_Forest                                                       
 C_Rich_Soils_Extraction                                                
 /;                                                                     
