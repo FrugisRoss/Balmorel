@@ -541,6 +541,7 @@ $setglobal baloptCCU yes
 *Needs the baloptfuelbridge to be activated
 $setglobal baloptLU yes
 *! option yes
+$setglobal baloptLUCO2 
 
 * OBS FF
 $setglobal optiFossils

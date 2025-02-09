@@ -214,7 +214,7 @@ MethanolBuffer_Exp
 MethanolTotal                                                                                                      
 MethanolTotal_sum                                                                                                  
 Money_buffer_T                                                                                                     
-                                                                                        
+                                                                                                     
 New_Productive_Forest                                                                                              
 Nitrogen_Production                                                                                                
 OAT                                                                                                                
@@ -223,12 +223,13 @@ Oat_Buffer
 Oat_Import                                                                                                         
 ProcEximShip                                                                                                       
 ProcEximTruck                                                                                                      
+ProcEximTruck_S                                                                                                    
+ProcEximTruck_W                                                                                                    
 ProcEximTruckC                                                                                                     
 Productive_Forest                                                                                                  
 Productive_Forest_Land_Gen                                                                                         
 Pyrolysis_Straw_20                                                                                                 
 Pyrolysis_Straw_25                                                                                                 
-                                                                                                 
 Pyrolysis_Straw_30                                                                                                 
 Pyrolysis_Straw_35                                                                                                 
 Pyrolysis_Straw_40                                                                                                 

@@ -165,7 +165,8 @@ MethanolTotal_sum
 Money_buffer_T                                                
 Nitrogen_Production                                           
 ProcEximShip                                                  
-ProcEximTruck                                                 
+ProcEximTruck_W                                               
+ProcEximTruck_S                                               
 Road_fuels_sum                                                
 RoadBuffer                                                    
 Sea_fuels_sum                                                 

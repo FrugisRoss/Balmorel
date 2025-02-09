@@ -1,6 +1,6 @@
 PARAMETER MINFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitations (U/year)"                                                                                                                         
 /                                                                                                                                                                                                                   
-*Rossella_LUOptiflow ï¿½                                                                                                                                                                                              
+*Rossella_LUOptiflow                                                                                                                                                                                                
 $ifi not %baloptLU%==yes $goto NO_LU                                                                                                                                                                                
 2050                                                                                         .    DENMARK        .    Wood_Material_Buffer    .    WOOD_MATERIAL_FLOW        1084440                                
 2050                                                                                         .    DENMARK        .    Wheat_Buffer            .    WHEAT_FLOW                2654800                                
@@ -10,7 +10,7 @@ $ifi not %baloptLU%==yes $goto NO_LU
                                                                                                                                                                                                                     
                                                                                                                                                                                                                     
 $label NO_LU                                                                                                                                                                                                        
-*2050                                                                                         .    DENMARK        .    CO2_Land                .    CO2_FLOW_BIOCHAR          66                                     
+*2050                                                                                        .    DENMARK        .    CO2_Land                .    CO2_FLOW_BIOCHAR          66                                     
                                                                                                                                                                                                                     
 2050                                                                                         .    DENMARK        .    Untouched_Forest        .    NEW_UNTOUCHED_FOREST_LAND 61444.9652810427 !!   245779.861124171 
 2050                                                                                         .    DENMARK        .    C_Rich_Soils_Extraction .    C_RICH_LAND               171048.131652924 !!   2394673.84314094 

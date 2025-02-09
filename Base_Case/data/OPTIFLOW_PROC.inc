@@ -213,6 +213,8 @@ Oat_Agriculture
 Oat_Buffer                                                                                                         
 ProcEximShip                                                                                                       
 ProcEximTruck                                                                                                      
+ProcEximTruck_S                                                                                                    
+ProcEximTruck_W                                                                                                    
 ProcEximTruckC                                                                                                     
 Productive_Forest                                                                                                  
 Productive_Forest_Land_Gen                                                                                         
