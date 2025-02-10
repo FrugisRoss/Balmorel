@@ -1,0 +1,199 @@
+- GDXReader:
+    file: C:\Users\sigur\OneDrive - Politecnico di Milano\polimi\magistrale\DTU\Run_on_HPC\Balmorel\CO2_Case_RLC\model\MainResults.gdx
+    symbols: 
+      - name: G_CAP_YCRAF
+      - name: PRO_YCRAGF
+      - name: F_CONS_YCRA
+      - name: EMI_YCRAG
+      - name: X_CAP_YCR
+      - name: ECO_G_YCRAG
+      - name: ECO_X_YCR
+      - name: OBJ_YCR
+      - name: EL_PRICE_YCR
+      - name: EL_PRICE_YCRST
+      - name: PRO_YCRAGFST
+      - name: EL_DEMAND_YCRST
+      - name: EL_DEMAND_YCR
+      - name: H_DEMAND_YCRAST
+      - name: H_DEMAND_YCRA
+      - name: H_PRICE_YCRAST
+      - name: H_PRICE_YCRA
+      - name: G_STO_YCRAF
+      - name: X_FLOW_YCRST
+      - name: X_FLOW_YCR
+      - name: F_CONS_YCRAST
+      - name: CC_YCRAG
+      - name: EL_BALANCE_YCRST
+      - name: CURT_YCRAGFST
+      - name: CURT_YCRAGF
+      - name: H_BALANCE_YCRAST
+      - name: XH_CAP_YCA
+      - name: XH_FLOW_YCAST
+      - name: XH_FLOW_YCA
+      - name: ECO_XH_YCRA
+      - name: H2_PRICE_YCRST
+      - name: H2_PRICE_YCR
+      - name: BIOMETH_PRICE_YST
+      - name: XH2_CAP_YCR
+      - name: XH2_FLOW_YCRST
+      - name: XH2_FLOW_YCR
+      - name: ECO_XH2_YCR
+      - name: H2_DEMAND_YCRST
+      - name: H2_DEMAND_YCR
+      - name: VFLOW_Opti_C
+      - name: VFLOWTRANS_Opti_A
+      - name: VFLOWTRANS_Opti_C
+      - name: ECO_PROC_YCRAP
+      - name: VPROCKAPNEW
+      - name: VPROCKAPACCUMNET
+- Projection:
+    name: VPROCKAPNEW.all(0,1,2)
+    newName: VPROCKAPNEW_proj_(0,1,2)
+- Projection:
+    name: VPROCKAPACCUMNET.all(0,1,2)
+    newName: VPROCKAPACCUMNET_proj_(0,1,2)
+- ExcelWriter:
+    file: C:\Users\sigur\OneDrive - Politecnico di Milano\polimi\magistrale\DTU\Run_on_HPC\Balmorel\CO2_Case_RLC\model\MainResults_export.xlsx
+    valueSubstitutions: {
+      EPS: EPS,
+      INF: INF,
+      -INF: -INF,
+      UNDEF: UNDEF,
+      NA: NA
+    }
+    symbols:
+      - name: G_CAP_YCRAF
+        range: G_CAP_YCRAF!A1
+        columnDimension: 0
+      - name: PRO_YCRAGF
+        range: PRO_YCRAGF!A1
+        columnDimension: 0
+      - name: F_CONS_YCRA
+        range: F_CONS_YCRA!A1
+        columnDimension: 0
+      - name: EMI_YCRAG
+        range: EMI_YCRAG!A1
+        columnDimension: 0
+      - name: X_CAP_YCR
+        range: X_CAP_YCR!A1
+        columnDimension: 0
+      - name: ECO_G_YCRAG
+        range: ECO_G_YCRAG!A1
+        columnDimension: 0
+      - name: ECO_X_YCR
+        range: ECO_X_YCR!A1
+        columnDimension: 0
+      - name: OBJ_YCR
+        range: OBJ_YCR!A1
+        columnDimension: 0
+      - name: EL_PRICE_YCR
+        range: EL_PRICE_YCR!A1
+        columnDimension: 0
+      - name: EL_PRICE_YCRST
+        range: EL_PRICE_YCRST!A1
+        columnDimension: 0
+      - name: PRO_YCRAGFST
+        range: PRO_YCRAGFST!A1
+        columnDimension: 0
+      - name: EL_DEMAND_YCRST
+        range: EL_DEMAND_YCRST!A1
+        columnDimension: 0
+      - name: EL_DEMAND_YCR
+        range: EL_DEMAND_YCR!A1
+        columnDimension: 0
+      - name: H_DEMAND_YCRAST
+        range: H_DEMAND_YCRAST!A1
+        columnDimension: 0
+      - name: H_DEMAND_YCRA
+        range: H_DEMAND_YCRA!A1
+        columnDimension: 0
+      - name: H_PRICE_YCRAST
+        range: H_PRICE_YCRAST!A1
+        columnDimension: 0
+      - name: H_PRICE_YCRA
+        range: H_PRICE_YCRA!A1
+        columnDimension: 0
+      - name: G_STO_YCRAF
+        range: G_STO_YCRAF!A1
+        columnDimension: 0
+      - name: X_FLOW_YCRST
+        range: X_FLOW_YCRST!A1
+        columnDimension: 0
+      - name: X_FLOW_YCR
+        range: X_FLOW_YCR!A1
+        columnDimension: 0
+      - name: F_CONS_YCRAST
+        range: F_CONS_YCRAST!A1
+        columnDimension: 0
+      - name: CC_YCRAG
+        range: CC_YCRAG!A1
+        columnDimension: 0
+      - name: EL_BALANCE_YCRST
+        range: EL_BALANCE_YCRST!A1
+        columnDimension: 0
+      - name: CURT_YCRAGFST
+        range: CURT_YCRAGFST!A1
+        columnDimension: 0
+      - name: CURT_YCRAGF
+        range: CURT_YCRAGF!A1
+        columnDimension: 0
+      - name: H_BALANCE_YCRAST
+        range: H_BALANCE_YCRAST!A1
+        columnDimension: 0
+      - name: XH_CAP_YCA
+        range: XH_CAP_YCA!A1
+        columnDimension: 0
+      - name: XH_FLOW_YCAST
+        range: XH_FLOW_YCAST!A1
+        columnDimension: 0
+      - name: XH_FLOW_YCA
+        range: XH_FLOW_YCA!A1
+        columnDimension: 0
+      - name: ECO_XH_YCRA
+        range: ECO_XH_YCRA!A1
+        columnDimension: 0
+      - name: H2_PRICE_YCRST
+        range: H2_PRICE_YCRST!A1
+        columnDimension: 0
+      - name: H2_PRICE_YCR
+        range: H2_PRICE_YCR!A1
+        columnDimension: 0
+      - name: BIOMETH_PRICE_YST
+        range: BIOMETH_PRICE_YST!A1
+        columnDimension: 0
+      - name: XH2_CAP_YCR
+        range: XH2_CAP_YCR!A1
+        columnDimension: 0
+      - name: XH2_FLOW_YCRST
+        range: XH2_FLOW_YCRST!A1
+        columnDimension: 0
+      - name: XH2_FLOW_YCR
+        range: XH2_FLOW_YCR!A1
+        columnDimension: 0
+      - name: ECO_XH2_YCR
+        range: ECO_XH2_YCR!A1
+        columnDimension: 0
+      - name: H2_DEMAND_YCRST
+        range: H2_DEMAND_YCRST!A1
+        columnDimension: 0
+      - name: H2_DEMAND_YCR
+        range: H2_DEMAND_YCR!A1
+        columnDimension: 0
+      - name: VFLOW_Opti_C
+        range: VFLOW_Opti_C!A1
+        columnDimension: 0
+      - name: VFLOWTRANS_Opti_A
+        range: VFLOWTRANS_Opti_A!A1
+        columnDimension: 0
+      - name: VFLOWTRANS_Opti_C
+        range: VFLOWTRANS_Opti_C!A1
+        columnDimension: 0
+      - name: ECO_PROC_YCRAP
+        range: ECO_PROC_YCRAP!A1
+        columnDimension: 0
+      - name: VPROCKAPNEW_proj_
+        range: VPROCKAPNEW!A1
+        columnDimension: 1
+      - name: VPROCKAPACCUMNET_proj_
+        range: VPROCKAPACCUMNET!A1
+        columnDimension: 1
