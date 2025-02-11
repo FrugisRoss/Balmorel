@@ -42,8 +42,8 @@ Barley_Buffer
 Rye_Buffer                                                             
 Oat_Buffer                                                             
 Straw_for_Use                                                          
-Wood_for_Energy                                                        
-Straw_for_Energy                                                       
+*Wood_for_Energy                                                        
+*Straw_for_Energy                                                       
 Biooil_Buffer                                                          
 CO2_Biochar_Buffer                                                     
 *CO2_Land 
@@ -56,5 +56,7 @@ New_Productive_Forest_HOV
 New_Productive_Forest_SJA                                           
 New_Productive_Forest_SYD                                           
 New_Productive_Forest_MID                                           
-New_Productive_Forest_NOR                                                              
+New_Productive_Forest_NOR 
+WOOD
+STRAW                                                             
 /;                                                                     
