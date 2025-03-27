@@ -42,11 +42,9 @@ Barley_Buffer
 Rye_Buffer                                                             
 Oat_Buffer                                                             
 Straw_for_Use                                                          
-*Wood_for_Energy                                                        
-*Straw_for_Energy                                                       
+Wood_for_Energy                                                        
+Straw_for_Energy                                                       
 Biooil_Buffer                                                          
 CO2_Biochar_Buffer                                                     
-CO2_Land     
-STRAW
-WOOD
+CO2_Land                                                               
 /;                                                                     

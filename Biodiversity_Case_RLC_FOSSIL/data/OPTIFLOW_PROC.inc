@@ -218,6 +218,7 @@ MethanolBuffer_Exp
 MethanolTotal                                                                                                      
 MethanolTotal_sum                                                                                                  
 Money_buffer_T                                                                                                     
+                                                                                                   
 New_Productive_Forest_HOV                                                                                          
 New_Productive_Forest_MID                                                                                          
 New_Productive_Forest_NOR                                                                                          
@@ -237,6 +238,7 @@ Productive_Forest
 Productive_Forest_Land_Gen                                                                                         
 Pyrolysis_Straw_20                                                                                                 
 Pyrolysis_Straw_25                                                                                                 
+                                                                                                 
 Pyrolysis_Straw_30                                                                                                 
 Pyrolysis_Straw_35                                                                                                 
 Pyrolysis_Straw_40                                                                                                 
