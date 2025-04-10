@@ -218,6 +218,7 @@ MethanolBuffer_Exp
 MethanolTotal                                                                                                      
 MethanolTotal_sum                                                                                                  
 Money_buffer_T                                                                                                     
+                                                                                                   
 New_Productive_Forest_HOV                                                                                          
 New_Productive_Forest_MID                                                                                          
 New_Productive_Forest_NOR                                                                                          
@@ -237,6 +238,8 @@ Productive_Forest
 Productive_Forest_Land_Gen                                                                                         
 Pyrolysis_Straw_20                                                                                                 
 Pyrolysis_Straw_25                                                                                                 
+
+                                                                                                 
 Pyrolysis_Straw_30                                                                                                 
 Pyrolysis_Straw_35                                                                                                 
 Pyrolysis_Straw_40                                                                                                 
@@ -264,7 +267,11 @@ TG_35
 TG_40                                                                                                              
 TG_45                                                                                                              
 TG_50                                                                                                              
-Untouched_Forest                                                                                                   
+Untouched_Forest_HOV                                                                                               
+Untouched_Forest_MID                                                                                               
+Untouched_Forest_NOR                                                                                               
+Untouched_Forest_SJA                                                                                               
+Untouched_Forest_SYD                                                                                               
 Wet_Biomass                                                                                                        
 WHEAT                                                                                                              
 Wheat_Agriculture                                                                                                  
@@ -274,6 +281,7 @@ Wood
 Wood_for_Energy                                                                                                    
 Wood_for_Use                                                                                                       
 Wood_Material_Buffer                                                                                               
+Wood_Materials_Import                                                                                              
 Wood_Pellets_Gen                                                                                                   
 Wood_Production                                                                                                    
 Wood_Production_for_Energy                                                                                         

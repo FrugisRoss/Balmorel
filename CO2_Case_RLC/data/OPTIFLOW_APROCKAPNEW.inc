@@ -151,6 +151,23 @@ Aalborg
                                                                                                                                                                                               
                                                                                                                                                                                               
                                                                                                                                                                                               
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
 SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or capacity expansion of existing Proc'                                                                            
 *This is stablished according to economy of scale, where large plants can only be located when heat demand is high                                                                            
                                                                                                                                                                                               
@@ -276,6 +293,46 @@ $label NO_BIOGAS
 2045                                                                                                                       .    Aarhus                        .    E_FT_45                    
 2050                                                                                                                       .    Aarhus                        .    E_FT_50                    
                                                                                                                                                                                               
+*2020                                                                                                                      .    Ballerup                      .    Untouched_Forest_HOV       
+*2025                                                                                                                      .    Ballerup                      .    Untouched_Forest_HOV       
+*2030                                                                                                                      .    Ballerup                      .    Untouched_Forest_HOV       
+*2035                                                                                                                      .    Ballerup                      .    Untouched_Forest_HOV       
+*2040                                                                                                                      .    Ballerup                      .    Untouched_Forest_HOV       
+*2045                                                                                                                      .    Ballerup                      .    Untouched_Forest_HOV       
+*2050                                                                                                                      .    Ballerup                      .    Untouched_Forest_HOV       
+                                                                                                                                                                                              
+*2020                                                                                                                      .    Faxe                          .    Untouched_Forest_SJA       
+*2025                                                                                                                      .    Faxe                          .    Untouched_Forest_SJA       
+*2030                                                                                                                      .    Faxe                          .    Untouched_Forest_SJA       
+*2035                                                                                                                      .    Faxe                          .    Untouched_Forest_SJA       
+*2040                                                                                                                      .    Faxe                          .    Untouched_Forest_SJA       
+*2045                                                                                                                      .    Faxe                          .    Untouched_Forest_SJA       
+*2050                                                                                                                      .    Faxe                          .    Untouched_Forest_SJA       
+                                                                                                                                                                                              
+*2020                                                                                                                      .    Assens                        .    Untouched_Forest_SYD       
+*2025                                                                                                                      .    Assens                        .    Untouched_Forest_SYD       
+*2030                                                                                                                      .    Assens                        .    Untouched_Forest_SYD       
+*2035                                                                                                                      .    Assens                        .    Untouched_Forest_SYD       
+*2040                                                                                                                      .    Assens                        .    Untouched_Forest_SYD       
+*2045                                                                                                                      .    Assens                        .    Untouched_Forest_SYD       
+*2050                                                                                                                      .    Assens                        .    Untouched_Forest_SYD       
+                                                                                                                                                                                              
+*2020                                                                                                                      .    Favrskov                      .    Untouched_Forest_MID       
+*2025                                                                                                                      .    Favrskov                      .    Untouched_Forest_MID       
+*2030                                                                                                                      .    Favrskov                      .    Untouched_Forest_MID       
+*2035                                                                                                                      .    Favrskov                      .    Untouched_Forest_MID       
+*2040                                                                                                                      .    Favrskov                      .    Untouched_Forest_MID       
+*2045                                                                                                                      .    Favrskov                      .    Untouched_Forest_MID       
+*2050                                                                                                                      .    Favrskov                      .    Untouched_Forest_MID       
+                                                                                                                                                                                              
+*2020                                                                                                                      .    Broenderslev                  .    Untouched_Forest_NOR       
+*2025                                                                                                                      .    Broenderslev                  .    Untouched_Forest_NOR       
+*2030                                                                                                                      .    Broenderslev                  .    Untouched_Forest_NOR       
+*2035                                                                                                                      .    Broenderslev                  .    Untouched_Forest_NOR       
+*2040                                                                                                                      .    Broenderslev                  .    Untouched_Forest_NOR       
+*2045                                                                                                                      .    Broenderslev                  .    Untouched_Forest_NOR       
+*2050                                                                                                                      .    Broenderslev                  .    Untouched_Forest_NOR       
+                                                                                                                                                                                              
 2020                                                                                                                       .    Aarhus                        .    Wood_Production            
 2025                                                                                                                       .    Aarhus                        .    Wood_Production            
 2030                                                                                                                       .    Aarhus                        .    Wood_Production            
@@ -363,7 +420,6 @@ $label NO_BIOGAS
 2040                                                                                                                       .    Broenderslev                  .    New_Productive_Forest_NOR  
 2045                                                                                                                       .    Broenderslev                  .    New_Productive_Forest_NOR  
 2050                                                                                                                       .    Broenderslev                  .    New_Productive_Forest_NOR  
-                                                                                                                                                                                              
                                                                                                                                                                                               
 2020                                                                                                                       .    Aarhus                        .    Wheat_Agriculture          
 2025                                                                                                                       .    Aarhus                        .    Wheat_Agriculture          
@@ -508,11 +564,11 @@ APROCKAPNEW(Y,AAA,'E_FT_40')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','E_FT_40
 APROCKAPNEW(Y,AAA,'E_FT_45')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','E_FT_45');                                                                                                           
 APROCKAPNEW(Y,AAA,'E_FT_50')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','E_FT_50');                                                                                                           
                                                                                                                                                                                               
-APROCKAPNEW(Y,AAA,'Wood_Production')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Wood_Production');                                                                                              
-APROCKAPNEW(Y,AAA,'Wheat_Agriculture')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Wheat_Agriculture');                                                                                          
-APROCKAPNEW(Y,AAA,'Barley_Agriculture')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Barley_Agriculture');                                                                                        
-APROCKAPNEW(Y,AAA,'Oat_Agriculture')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Oat_Agriculture');                                                                                              
-APROCKAPNEW(Y,AAA,'Rye_Agriculture')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Rye_Agriculture');                                                                                              
+*APROCKAPNEW(Y,AAA,'Untouched_Forest_HOV')$REGHOV(AAA)=APROCKAPNEW(Y,'Ballerup','Untouched_Forest_HOV');                                                                                      
+*APROCKAPNEW(Y,AAA,'Untouched_Forest_SJA')$REGSJA(AAA)=APROCKAPNEW(Y,'Faxe','Untouched_Forest_SJA');                                                                                          
+*APROCKAPNEW(Y,AAA,'Untouched_Forest_SYD')$REGSYD(AAA)=APROCKAPNEW(Y,'Assens','Untouched_Forest_SYD');                                                                                        
+*APROCKAPNEW(Y,AAA,'Untouched_Forest_MID')$REGMID(AAA)=APROCKAPNEW(Y,'Favrskov','Untouched_Forest_MID');                                                                                      
+*APROCKAPNEW(Y,AAA,'Untouched_Forest_NOR')$REGNORD(AAA)=APROCKAPNEW(Y,'Broenderslev','Untouched_Forest_NOR');                                                                                 
                                                                                                                                                                                               
 APROCKAPNEW(Y,AAA,'C_Rich_Soils_Extraction_HOV')$REGHOV(AAA)=APROCKAPNEW(Y,'Ballerup','C_Rich_Soils_Extraction_HOV');                                                                         
 APROCKAPNEW(Y,AAA,'C_Rich_Soils_Extraction_SJA')$REGSJA(AAA)=APROCKAPNEW(Y,'Faxe','C_Rich_Soils_Extraction_SJA');                                                                             
@@ -525,6 +581,12 @@ APROCKAPNEW(Y,AAA,'New_Productive_Forest_SJA')$REGSJA(AAA)=APROCKAPNEW(Y,'Faxe',
 APROCKAPNEW(Y,AAA,'New_Productive_Forest_SYD')$REGSYD(AAA)=APROCKAPNEW(Y,'Assens','New_Productive_Forest_SYD');                                                                               
 APROCKAPNEW(Y,AAA,'New_Productive_Forest_MID')$REGMID(AAA)=APROCKAPNEW(Y,'Favrskov','New_Productive_Forest_MID');                                                                             
 APROCKAPNEW(Y,AAA,'New_Productive_Forest_NOR')$REGNORD(AAA)=APROCKAPNEW(Y,'Broenderslev','New_Productive_Forest_NOR');                                                                        
+                                                                                                                                                                                              
+APROCKAPNEW(Y,AAA,'Wood_Production')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Wood_Production');                                                                                              
+APROCKAPNEW(Y,AAA,'Wheat_Agriculture')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Wheat_Agriculture');                                                                                          
+APROCKAPNEW(Y,AAA,'Barley_Agriculture')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Barley_Agriculture');                                                                                        
+APROCKAPNEW(Y,AAA,'Oat_Agriculture')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Oat_Agriculture');                                                                                              
+APROCKAPNEW(Y,AAA,'Rye_Agriculture')$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Rye_Agriculture');                                                                                              
                                                                                                                                                                                               
 APROCKAPNEW(Y,AAA,'Pyrolysis_Straw_20')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Pyrolysis_Straw_20');                                                                                     
 APROCKAPNEW(Y,AAA,'Pyrolysis_Straw_25')$BIGAAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'Aarhus','Pyrolysis_Straw_25');                                                                                     

@@ -876,6 +876,5 @@ TRANSDIST('ProcEximTruckC','Aeroe','Faaborg-Midtfyn')=35.3;
                                                                                        
                                                                                        
 ;                                                                                      
-                                                                                       
-TRANSDIST(PROC,IAAAE,IAAAI)$((NOT AAAOPTIFLOW(IAAAE)) OR (NOT AAAOPTIFLOW(IAAAI))) = 0;
 TRANSDIST(PROC,IAAAI,IAAAE)$TRANSDIST(PROC,IAAAE,IAAAI) = TRANSDIST(PROC,IAAAE,IAAAI); 
+TRANSDIST(PROC,IAAAE,IAAAI)$((NOT AAAOPTIFLOW(IAAAE)) OR (NOT AAAOPTIFLOW(IAAAI))) = 0;

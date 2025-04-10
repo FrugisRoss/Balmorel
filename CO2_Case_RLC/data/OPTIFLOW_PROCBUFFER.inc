@@ -35,28 +35,16 @@ Gas_Buffer
                                                                        
 *Rossella LUOptiflow                                                   
 Wood_Material_Buffer                                                   
-CO2_Land_Buffer                                                        
+*CO2_Land_Buffer                                                       
 Wood_for_Use                                                           
 Wheat_Buffer                                                           
 Barley_Buffer                                                          
 Rye_Buffer                                                             
 Oat_Buffer                                                             
 Straw_for_Use                                                          
-*Wood_for_Energy                                                        
-*Straw_for_Energy                                                       
+Wood_for_Energy                                                        
+Straw_for_Energy                                                       
 Biooil_Buffer                                                          
 CO2_Biochar_Buffer                                                     
-*CO2_Land 
-C_Rich_Soils_Extraction_HOV                                         
-C_Rich_Soils_Extraction_SJA                                         
-C_Rich_Soils_Extraction_SYD                                         
-C_Rich_Soils_Extraction_MID                                         
-C_Rich_Soils_Extraction_NOR                                         
-New_Productive_Forest_HOV                                           
-New_Productive_Forest_SJA                                           
-New_Productive_Forest_SYD                                           
-New_Productive_Forest_MID                                           
-New_Productive_Forest_NOR 
-WOOD
-STRAW                                                             
+CO2_Land                                                               
 /;                                                                     

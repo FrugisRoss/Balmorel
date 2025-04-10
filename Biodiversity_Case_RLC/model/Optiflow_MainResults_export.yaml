@@ -1,0 +1,138 @@
+- GDXReader:
+    file: C:\Users\sigur\OneDrive - Politecnico di Milano\polimi\magistrale\DTU\Run_on_HPC\Balmorel\Biodiversity_Case_RLC_FOSSIL\model\Optiflow_MainResults.gdx
+    symbols: 
+      - name: VOBJ
+      - name: VGKN
+      - name: VX_T
+      - name: VXKN
+      - name: VFLOWTRANS
+      - name: VPROCKAPNEW
+      - name: VPROCKAPACCUMNET
+      - name: VFLOWTRANS_Opti_A
+      - name: VFLOWTRANS_Opti_C
+      - name: ECO_PROC_YCRAP
+      - name: OBJ_YCR
+      - name: ECO_INDIC
+      - name: VFLOW_Opti_A
+      - name: VFLOW_Opti_C
+      - name: VFLOWSOURCE_Opti_A
+      - name: VFLOWSOURCE_Opti_C
+      - name: VFLOWBUFFER_Opti_C
+      - name: VFLOWCCU_A
+      - name: VFLOWCCU_C
+      - name: EMI_PROC
+      - name: EMI_YCRAG
+      - name: RE_fuel_Price
+      - name: PRO_YCRAGFST
+      - name: PRO_YCRAGF
+      - name: VFLOWSTORAGE_Opti_A
+      - name: VFLOWSTORAGE_Opti_C
+- Projection:
+    name: VOBJ.all
+    newName: VOBJ_proj_
+- Projection:
+    name: VGKN.all(0,1,2)
+    newName: VGKN_proj_(0,1,2)
+- Projection:
+    name: VX_T.all(0,1,2,3,4)
+    newName: VX_T_proj_(0,1,2,3,4)
+- Projection:
+    name: VXKN.all(0,1,2)
+    newName: VXKN_proj_(0,1,2)
+- Projection:
+    name: VFLOWTRANS.all(0,1,2,3,4,5,6)
+    newName: VFLOWTRANS_proj_(0,1,2,3,4,5,6)
+- Projection:
+    name: VPROCKAPNEW.all(0,1,2)
+    newName: VPROCKAPNEW_proj_(0,1,2)
+- Projection:
+    name: VPROCKAPACCUMNET.all(0,1,2)
+    newName: VPROCKAPACCUMNET_proj_(0,1,2)
+- ExcelWriter:
+    file: C:\Users\sigur\OneDrive - Politecnico di Milano\polimi\magistrale\DTU\Run_on_HPC\Balmorel\Biodiversity_Case_RLC_FOSSIL\model\Optiflow_MainResults_export.xlsx
+    valueSubstitutions: {
+      EPS: EPS,
+      INF: INF,
+      -INF: -INF,
+      UNDEF: UNDEF,
+      NA: NA
+    }
+    symbols:
+      - name: VOBJ_proj_
+        range: VOBJ!A1
+        columnDimension: 1
+      - name: VGKN_proj_
+        range: VGKN!A1
+        columnDimension: 1
+      - name: VX_T_proj_
+        range: VX_T!A1
+        columnDimension: 1
+      - name: VXKN_proj_
+        range: VXKN!A1
+        columnDimension: 1
+      - name: VFLOWTRANS_proj_
+        range: VFLOWTRANS!A1
+        columnDimension: 1
+      - name: VPROCKAPNEW_proj_
+        range: VPROCKAPNEW!A1
+        columnDimension: 1
+      - name: VPROCKAPACCUMNET_proj_
+        range: VPROCKAPACCUMNET!A1
+        columnDimension: 1
+      - name: VFLOWTRANS_Opti_A
+        range: VFLOWTRANS_Opti_A!A1
+        columnDimension: 0
+      - name: VFLOWTRANS_Opti_C
+        range: VFLOWTRANS_Opti_C!A1
+        columnDimension: 0
+      - name: ECO_PROC_YCRAP
+        range: ECO_PROC_YCRAP!A1
+        columnDimension: 0
+      - name: OBJ_YCR
+        range: OBJ_YCR!A1
+        columnDimension: 0
+      - name: ECO_INDIC
+        range: ECO_INDIC!A1
+        columnDimension: 0
+      - name: VFLOW_Opti_A
+        range: VFLOW_Opti_A!A1
+        columnDimension: 0
+      - name: VFLOW_Opti_C
+        range: VFLOW_Opti_C!A1
+        columnDimension: 0
+      - name: VFLOWSOURCE_Opti_A
+        range: VFLOWSOURCE_Opti_A!A1
+        columnDimension: 0
+      - name: VFLOWSOURCE_Opti_C
+        range: VFLOWSOURCE_Opti_C!A1
+        columnDimension: 0
+      - name: VFLOWBUFFER_Opti_C
+        range: VFLOWBUFFER_Opti_C!A1
+        columnDimension: 0
+      - name: VFLOWCCU_A
+        range: VFLOWCCU_A!A1
+        columnDimension: 0
+      - name: VFLOWCCU_C
+        range: VFLOWCCU_C!A1
+        columnDimension: 0
+      - name: EMI_PROC
+        range: EMI_PROC!A1
+        columnDimension: 0
+      - name: EMI_YCRAG
+        range: EMI_YCRAG!A1
+        columnDimension: 0
+      - name: RE_fuel_Price
+        range: RE_fuel_Price!A1
+        columnDimension: 0
+      - name: PRO_YCRAGFST
+        range: PRO_YCRAGFST!A1
+        columnDimension: 0
+      - name: PRO_YCRAGF
+        range: PRO_YCRAGF!A1
+        columnDimension: 0
+      - name: VFLOWSTORAGE_Opti_A
+        range: VFLOWSTORAGE_Opti_A!A1
+        columnDimension: 0
+      - name: VFLOWSTORAGE_Opti_C
+        range: VFLOWSTORAGE_Opti_C!A1
+        columnDimension: 0
