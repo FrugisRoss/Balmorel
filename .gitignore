@@ -27,9 +27,8 @@ base/data/README.md
 *.log~2
 *.log~3
 build
-/Wood_endogenous
-/Wood_Agriculture_Endogenous
-/Model Validation
-/Wood_Agriculture_Endogenous_CRS_NPF_linkon_refined
+/Base_Case
+/Biodiversity_Case_RLC_FOSSIL
+/CO2_Case_RLC
 
 %batfileMERGEWITHBASE%
