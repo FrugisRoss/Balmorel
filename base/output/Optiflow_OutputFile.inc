@@ -164,7 +164,7 @@ Parameter VFLOWTRANS_Opti_C(Y,ICE,ICI,PROC,FLOW)    'Transport flows between cou
 VFLOWTRANS_Opti_C(Y,ICE,ICI,PROC,FLOW)=SUM((IAE,IAI)$(ICA(ICE,IAE) AND ICA(ICI,IAI) AND (NOT ICA(ICE,IAI))),VFLOWTRANS_Opti_A(Y,IAE,IAI,PROC,FLOW));
 
 * Costs in OptiFlow
-SET COST_TYPE /INVESTMENT,FIXED,OPERATIONAL/;
+SET COST_TYPE /INVESTMENT,INVESTMENT_NA,FIXED,OPERATIONAL/;
 SET UNIT /Mmoney,PJ/;
 Parameter ECO_PROC_YCRAP(Y,C,RRR,AAA,PROC,COST_TYPE,UNIT)   "Cost of processes in OptiFlow for year country, region, and area";
 * Investment cost
